@@ -10,9 +10,9 @@ source /root/.bashrc
 ```
 
 ### Start your node
-```console
+
 # Create a screen ro run it in background for later
-```
+``
 screen -S hyperspace
 ```
 # Run node
@@ -24,7 +24,7 @@ aios-cli start
 * Turn back to screen: `screen -r hyperspace`
 If showing any error update "screen: command not found" indicates that the screen utility is not installed on your system. Here's how to fix it by installing screen:
 
-### Steps to Install screen:
+## Steps to Install screen:
 
 1. Update the package list:
    
@@ -37,7 +37,7 @@ If showing any error update "screen: command not found" indicates that the scree
 ### Config Node
 
 # Download a required model
-```console
+```
 aios-cli models add hf:TheBloke/phi-2-GGUF:phi-2.Q4_K_M.gguf
 ```
 # Import your private key - Create a my.pem file using nano .pem and input a privatekey (You can get a privatekey from browser version)
@@ -52,12 +52,14 @@ aios-cli hive login
 ```
 aios-cli hive connect
 ```
+```
 aios-cli hive select-tier 5
 ```
 
-### Check Points
+## Check Points
 
 # To check your current multiplier and points
+
 ```
 aios-cli hive points
 ```
