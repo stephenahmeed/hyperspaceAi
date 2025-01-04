@@ -12,12 +12,12 @@ source /root/.bashrc
 ### Start your node
 
 # Create a screen ro run it in background for later
-``
+```shell
 screen -S hyperspace
 ```
 # Run node
 
-```
+```shell
 aios-cli start
 ```
 * To continue, minimize your screen using `CTRL+A+D` or Open second terminal
@@ -37,22 +37,22 @@ If showing any error update "screen: command not found" indicates that the scree
 ### Config Node
 
 # Download a required model
-```
+```shell
 aios-cli models add hf:TheBloke/phi-2-GGUF:phi-2.Q4_K_M.gguf
 ```
 # Import your private key - Create a my.pem file using nano .pem and input a privatekey (You can get a privatekey from browser version)
-```
+```shell
 aios-cli hive import-keys ./my.pem
 ```
 # Set those keys as the preferred keys for this session
-```
+```shell
 aios-cli hive login
 ```
 # Make sure the model is registered
-```
+```shell
 aios-cli hive connect
 ```
-```
+```shell
 aios-cli hive select-tier 5
 ```
 
@@ -60,7 +60,7 @@ aios-cli hive select-tier 5
 
 # To check your current multiplier and points
 
-```
+```shell
 aios-cli hive points
 ```
 
