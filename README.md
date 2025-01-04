@@ -1,5 +1,19 @@
+### Hyperspace Depin Node 3 ways to farm
 
-## Hyperspace Linux CLI Node (VPS)
+## 1. Directly from the site
+   - Visit: node.hyper.space
+   - Toggle the red button on the left to connect.  
+  -  Save your PrivateKey
+
+## 2. Installing the app on PC
+   - Click "Download" on the right corner of the site.  
+   - Choose your PC type, download, and install.  
+   - Install a provider and connect it to Hyperspace.  
+   - You can find your PrivateKey file key.pmf in directory Search hyperspace
+
+Note:  Make sure to keep the red switch turned on because it can sometimes disconnect, possibly because of network issues.
+
+## 3. Hyperspace Linux CLI Node (VPS)
 * You can also check out [Official repository](https://github.com/hyperspaceai/aios-cli?tab=readme-ov-file) for more commands and info
 
 ### Install
