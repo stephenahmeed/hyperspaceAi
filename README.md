@@ -89,3 +89,5 @@ aios-cli start --connect
 aios-cli version
 # Stop node
 aios-cli kill
+# Export Key 
+aios-cli hive whoami
